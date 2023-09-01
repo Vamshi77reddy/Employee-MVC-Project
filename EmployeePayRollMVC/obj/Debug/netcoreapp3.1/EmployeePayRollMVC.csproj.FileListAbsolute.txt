@@ -1,0 +1,8 @@
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.csproj.AssemblyReference.cache
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.AssemblyInfoInputs.cache
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.AssemblyInfo.cs
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.csproj.CoreCompileInputs.cache
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.RazorAssemblyInfo.cache
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.RazorAssemblyInfo.cs

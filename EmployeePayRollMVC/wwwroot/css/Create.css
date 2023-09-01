@@ -1,0 +1,11 @@
+﻿
+.row {
+    background-color: lightgray;
+    width: auto;
+    margin: 10%;
+    margin-top: 3px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

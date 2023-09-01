@@ -1,0 +1,83 @@
+﻿@model IEnumerable<CommonLayer.Model.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Index</h1>
+ 
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <style>
+        .table{
+        background-color: lightgray;
+        justify-content: center;}
+    </style>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Emp_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Emp_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Profile_img)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Emp_gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Emp_dep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.start)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emp_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emp_name)
+            </td>
+            <td>
+                    <img src="@Url.Content(item.Profile_img)" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emp_gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emp_dep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.start)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Emp_id }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.Emp_id }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.Emp_id})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

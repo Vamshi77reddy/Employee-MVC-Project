@@ -1,0 +1,5 @@
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
