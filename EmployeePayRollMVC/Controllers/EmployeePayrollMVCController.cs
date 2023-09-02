@@ -93,19 +93,25 @@ namespace EmployeePayRollMVC.Controllers
             return RedirectToAction("Index");
         }
         [HttpGet]
-        public IActionResult Details(int? id)
+        public IActionResult Details()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-            Employee employee = employeeBl.getEmployeeById(id);
+            int Emp_id = (int)HttpContext.Session.GetInt32("emp_id");
+            string Emp_name = HttpContext.Session.GetString("emp_name");
 
-            if (employee == null)
+            if (Emp_id != 0 && Emp_name !=null)
             {
-                return NotFound();
+
+
+                Employee employee = employeeBl.getEmployeeById(Emp_id);
+
+                if (employee == null)
+                {
+                    return NotFound();
+                }
+                return View(employee);
             }
-            return View(employee);
+            else
+                return RedirectToAction("Login");
         }
         [HttpGet]
         public IActionResult Login()
@@ -123,8 +129,8 @@ namespace EmployeePayRollMVC.Controllers
                 var result = employeeBl.EmpLogin(login);
                 if (result != null)
                 {
-                    HttpContext.Session.SetInt32("Emp_id", result.Emp_id);
-                    HttpContext.Session.SetString("Emp_name", result.Emp_name);
+                    HttpContext.Session.SetInt32("emp_id", result.Emp_id);
+                    HttpContext.Session.SetString("emp_name", result.Emp_name);
                     ViewBag.message = "Sucess login";
                     return RedirectToAction("Details");
 
