@@ -131,7 +131,7 @@ namespace EmployeePayRollMVC.Controllers
                 {
                     HttpContext.Session.SetInt32("emp_id", result.Emp_id);
                     HttpContext.Session.SetString("emp_name", result.Emp_name);
-                    ViewBag.message = "Sucess login";
+                    ViewBag.message = "Success login";
                     return RedirectToAction("Details");
 
                 }
