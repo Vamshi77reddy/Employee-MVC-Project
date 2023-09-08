@@ -9,6 +9,8 @@
 <div>
     <h4>Employee</h4>
     <hr />
+    <label>@ViewBag.message</label>
+
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Emp_id)
@@ -61,6 +63,6 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.Emp_id  }) |
     <a asp-action="Index">Back to List</a>
 </div>
