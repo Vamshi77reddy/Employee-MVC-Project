@@ -3,16 +3,9 @@
 @{
     ViewData["Title"] = "Create";
 }
+
 <link href="~/css/create.css" rel="stylesheet" />
-@*<style>
-    body {
-        margin-bottom: 60px;
-        background-image: linear-gradient(45deg, black, transparent);
-    }
-    .row{
-        background-color:grey;
-    }*@
-</style>
+
 
 <h1>Create</h1>
 
@@ -64,7 +57,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="start" class="control-label"></label>
-                <input asp-for="start" class="form-control" />
+                <input asp-for="start" id="datetimeInput" class="form-control" onchange="validateDateTime()" />
                 <span asp-validation-for="start" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -86,3 +79,4 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+<script src="~/js/validation.js"></script>

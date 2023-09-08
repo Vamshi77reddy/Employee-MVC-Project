@@ -35,7 +35,7 @@ namespace RepoLayer.Services
                         cmd.Parameters.AddWithValue("@notes", employee.Notes);
 
                         con.Open();
-                        cmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();    
                         con.Close();
                     }
                 catch (Exception ex)
@@ -43,7 +43,7 @@ namespace RepoLayer.Services
                     throw ex;
                 }
                 }
-            }
+            }   
             public IEnumerable<Employee> GetAllEmployees()
             {
             try

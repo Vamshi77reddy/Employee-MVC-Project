@@ -134,3 +134,4 @@ C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug
 C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.pdb
 C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.genruntimeconfig.cache
 C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_NavBar.cshtml.g.cs
+C:\Users\Teju Reddy\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\Razor\Views\EmployeePayrollMVC\Detail.cshtml.g.cs
